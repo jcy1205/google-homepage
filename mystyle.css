@@ -1,0 +1,73 @@
+
+
+div.firstline {
+    margin: 20px;
+    word-spacing: 20px;
+}
+div.brandimage {
+    position: absolute;
+    top: 170px;
+    width: 100%;
+}
+div.searchbox {
+    position: relative;
+    top: 280px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: lightgray;
+    border-style: solid;
+    border-radius: 50px;
+    padding: 15px;
+    font-size: 1em;
+ 
+    width: 40%;
+}
+
+div.insidesearchbox {
+    font-size: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(Images/search.png), url(Images/googlemic.png);
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 90%;
+}
+
+ input {
+
+    font-size: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    width: 85%;
+    border
+}  
+img.a {
+    vertical-align: middle;
+}
+img.b {
+    vertical-align: middle;
+}
+img.c {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.alignleft {
+    float: left;
+}
+.alignright {
+    float: right;
+}
+a {
+    text-decoration-line: none;
+}
+
+
+
