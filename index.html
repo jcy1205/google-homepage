@@ -32,16 +32,22 @@
     <div class="searchbox">
             <div class="insidesearchbox">
                         <form action="action_page.php">
-                                <input type="text" name="search" > 
+                                <input type="text" name="search" target="_search"> 
                         </form>
             </div>
     </div>
-   <div class="buttonbox">
-       <form action="action_page.php">
-            <input type="button" placeholder="search">
-       </form>
+    <div class="flexout">
+            <div class="flex">
+                    <form action="action_page.php" class="flex-item">
+                            <button class="button">Google Search</button>
+                   </form>
+        
+                    <form action="action_page.php" class="flex-item">
+                            <button class="button">I'm Feeling Lucky</button>
+                    </form>
+           </div>
+    </div>
 
-   </div>
 
 </body>
 </html>
