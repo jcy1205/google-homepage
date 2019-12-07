@@ -1,14 +1,14 @@
 
 
-div.firstline {
+#firstline #footer {
     margin: 20px;
-    word-spacing: 20px;
 }
 div.brandimage {
     position: absolute;
     top: 170px;
     width: 100%;
 }
+
 div.searchbox {
     position: relative;
     top: 280px;
@@ -110,5 +110,15 @@ a {
     text-decoration-line: none;
 }
 
+a+a {
+    margin-left: 20px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 10px;
+    background-color: lightgray;
+    width: 100%;
+}
 
 
